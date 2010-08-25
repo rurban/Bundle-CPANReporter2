@@ -1,4 +1,11 @@
 Revision history for Perl extension Bundle::CPANReporter2
 
+0.03  2010-08-25 rurban
+	- reordered and added more missing modules
+
+0.02  2010-08-24 rurban
+	- remove duplicate =head1 CONTENTS
+	- added SIGNATURE
+
 0.01  2010-08-24 rurban
 	- original version as uploaded to CPAN

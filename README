@@ -8,20 +8,22 @@ INSTALLATION
 
 For all Perl versions (esp. compiles XS modules)
 
-$ cpan Bundle::CPANReporter2
+	$ cpan Bundle::CPANReporter2
 
-Only once:
+CPAN::Reporter 2.0 switchexd from SMTP to Metabase via HTTP.
+To enable it, create a unique profile, or associate it with your CPAN id:
 
-$ metabase-profile
+	$ metabase-profile
+	Enter full name: John Doe
+        Enter email address: jdoe@example.com
+        Enter password/secret: zqxjkh
+        Writing profile to 'metabase_id.json'
 
-  bla
+	$ mkdir ~/.cpanreporter
+	$ cp metabase_id.json ~/.cpanreporter/
+	$ chmod 400 ~/.cpanreporter/metabase_id.json
+	$ vi ~/.cpanreporter/config.ini
 
-$ mkdir ~/.cpantesters
-$ cp metabase_id.json ~/.cpantesters/
-$ chmod 400 ~/.cpantesters/metabase_id.json
-
-$ vi ~/.cpanreporter/config.ini
-
-  email_from = youremail@example.com
-  transport = Metabase uri https://metabase.cpantesters.org/api/v1/ id_file ~/.cpantesters/metabase_id.json
+	email_from = John Doe <jdoe@example.com>
+	transport = Metabase uri https://metabase.cpantesters.org/api/v1/ id_file ~/.cpanreporter/metabase_id.json
 

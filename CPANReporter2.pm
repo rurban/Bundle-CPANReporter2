@@ -1,6 +1,6 @@
 package Bundle::CPANReporter2;
 
-$VERSION = '0.01';
+$VERSION = '0.03';
 
 1;
 
@@ -14,52 +14,60 @@ Bundle::CPANReporter2 - Bundle for CPAN::Reporter::Transport::Metabase
 
 For all Perl versions:
 
-$ cpan Bundle::CPANReporter2
+  $ cpan Bundle::CPANReporter2
 
 Only once:
 
-$ metabase-profile
+  $ metabase-profile
+  Enter full name: John Doe
+  Enter email address: jdoe@example.com
+  Enter password/secret: zqxjkh
+  Writing profile to 'metabase_id.json'
 
-  bla
+  $ mkdir ~/.cpanreporter
+  $ cp metabase_id.json ~/.cpanreporter/
+  $ chmod 400 ~/.cpanreporter/metabase_id.json
+  $ vi ~/.cpanreporter/config.ini
 
-$ mkdir ~/.cpantesters
-$ cp metabase_id.json ~/.cpantesters/
-$ chmod 400 ~/.cpantesters/metabase_id.json
-
-$ vi ~/.cpanreporter/config.ini
-
-  email_from = youremail@example.com
-  transport = Metabase uri https://metabase.cpantesters.org/api/v1/ id_file ~/.cpantesters/metabase_id.json
+  email_from = John Doe <jdoe@example.com>
+  transport = Metabase uri https://metabase.cpantesters.org/api/v1/ id_file ~/.cpanreporter/metabase_id.json
 
 =head1 CONTENTS
 
-Data::UUID
+Data::UUID		1.215
 
-Crypt::SSLeay
+Data::GUID		0.045
 
-Test::Reporter::Transport::Metabase 1.999008
+Crypt::SSLeay		0.58
 
-Net::DNS
+Net::DNS		0.66
 
-Test::Reporter			1.57
+Parse::CPAN::Meta	1.40
 
-CPAN::Reporter			1.1800
+Test::Reporter		1.57
 
-Config::Perl::V
+Config::Perl::V		0.12
 
-CPAN::Testers::Report      1.999001
+common::sense		3.3
 
-CPAN::Testers::ParseReport 0.1.14
+JSON::XS		2.3
 
-JSON
+JSON			2.22
+
+CPAN::DistnameInfo	0.10
 
 Metabase::Fact		  0.017
 
-Metabase::User::Profile   0.016
-
-Metabase::User::Secret    0.016
-
 Metabase::Client::Simple  0.008
+
+CPAN::Reporter		1.1800
+
+CPAN::Testers::ParseReport 0.1.14
+
+CPAN::Testers::Report   1.999001
+
+Test::Reporter::Transport::Metabase 1.999008
+
 
 =head1 DESCRIPTION
 
@@ -67,8 +75,6 @@ I have a hierarchy of @INC so I mostly have to install only into some
 lower versioned perl. Just XS modules need a manual update then. For
 this complicated dependency chain I used this bundle, esp. for
 Data::UUID.
-
-=head1 CONTENTS
 
 =head1 AUTHOR
 
