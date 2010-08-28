@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::CPANReporter2
 
+0.04  2010-08-28 rurban
+	- added Digest::HMAC_MD5, Net::IP
+
 0.03  2010-08-25 rurban
 	- reordered and added more missing modules
 

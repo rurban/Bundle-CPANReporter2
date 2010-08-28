@@ -1,6 +1,6 @@
 package Bundle::CPANReporter2;
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 1;
 
@@ -40,6 +40,10 @@ Data::GUID		0.045
 
 Crypt::SSLeay		0.58
 
+Digest::HMAC_MD5        1.02
+
+Net::IP                 1.25
+
 Net::DNS		0.66
 
 Parse::CPAN::Meta	1.40
@@ -56,13 +60,11 @@ JSON			2.22
 
 CPAN::DistnameInfo	0.10
 
-Metabase::Fact		  0.017
+Metabase::Fact		0.017
 
-Metabase::Client::Simple  0.008
+Metabase::Client::Simple 0.008
 
 CPAN::Reporter		1.1800
-
-CPAN::Testers::ParseReport 0.1.14
 
 CPAN::Testers::Report   1.999001
 
