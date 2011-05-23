@@ -1,6 +1,6 @@
 package Bundle::CPANReporter2;
 
-$VERSION = '0.04';
+$VERSION = '0.05';
 
 1;
 
@@ -39,6 +39,8 @@ Data::UUID		1.215
 Data::GUID		0.045
 
 Crypt::SSLeay		0.58
+
+Encode::Locale		1.02
 
 Digest::HMAC_MD5        1.02
 

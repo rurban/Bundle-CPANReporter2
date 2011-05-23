@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::CPANReporter2
 
+0.05  2011-05-23 rurban
+	- added Encode::Locale
+
 0.04  2010-08-28 rurban
 	- added Digest::HMAC_MD5, Net::IP
 
