@@ -1,6 +1,6 @@
 package Bundle::CPANReporter2;
 
-$VERSION = '0.05';
+$VERSION = '0.06';
 
 1;
 
@@ -34,9 +34,9 @@ Only once:
 
 =head1 CONTENTS
 
-Data::UUID		1.215
+Data::UUID		1.217
 
-Data::GUID		0.045
+Data::GUID		0.046
 
 Crypt::SSLeay		0.58
 
@@ -48,21 +48,23 @@ Net::IP                 1.25
 
 Net::DNS		0.66
 
-Parse::CPAN::Meta	1.40
+Parse::CPAN::Meta	1.4401
 
-Test::Reporter		1.57
+Test::Reporter		1.58
 
 Config::Perl::V		0.12
 
-common::sense		3.3
+common::sense		3.4
 
-JSON::XS		2.3
+JSON::XS		2.32
 
 JSON			2.22
 
 CPAN::DistnameInfo	0.10
 
-Metabase::Fact		0.017
+Params::Util		1.04
+
+Metabase::Fact		0.020
 
 Metabase::Client::Simple 0.008
 

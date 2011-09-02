@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,16 +14,16 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 505bd19a1f02a1d31dd44988634df07eb32241f7 CPANReporter2.pm
-SHA1 d04ebdcb30fdc32e124ff580e5985f29181f1fbf Changes
-SHA1 42fbb5d0cb0569aa2fbf7fe63eca0361eee680af MANIFEST
-SHA1 cc7f7a1541e40cdd4ade0840147541140be4d08b META.yml
-SHA1 84afaa9a86b8f2f2c7307a3cc9df56787861d6be Makefile.PL
+SHA1 0ebd95dc882188ae63d1907cb9dfbb0ebc6c20c8 CPANReporter2.pm
+SHA1 c9a9ae6c76c6d7f06eae3fd029123f64136d2bb4 Changes
+SHA1 bef5bcf010372a6d1c52d15cc29cbc092986922d MANIFEST
+SHA1 88088712baa9e69fbf87d47b3526baadf0f38a63 META.yml
+SHA1 528ec6aa42cd70fe94725432760414c1fbe4953c Makefile.PL
 SHA1 104eb8da22fa09885b343032b7e9770c29c0e658 README
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.9 (Cygwin)
+Version: GnuPG v1.4.11 (Darwin)
 
-iEYEARECAAYFAk3aURUACgkQmm2SYo/9yUIfKgCeN+jsshh3V0p7FJAw2k0BgrKg
-L4sAnjXVGjp9DQNGEEJYS3T0DRvsevn0
-=EljE
+iEYEARECAAYFAk5g4bgACgkQmm2SYo/9yUKKGgCeNrb1p+8vLLak9P1pLbFqLI8Q
+l/gAmwUt5kxFj/8Wl7AEH+K5ET+WZ+2o
+=mmhf
 -----END PGP SIGNATURE-----

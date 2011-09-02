@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::CPANReporter2
 
+0.06  2011-09-02 rurban
+	- added Params::Util
+
 0.05  2011-05-23 rurban
 	- added Encode::Locale
 
