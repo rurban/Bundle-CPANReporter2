@@ -1,6 +1,6 @@
 package Bundle::CPANReporter2;
 
-$VERSION = '0.06';
+$VERSION = '0.07';
 
 1;
 
@@ -34,6 +34,8 @@ Only once:
 
 =head1 CONTENTS
 
+Params::Util		1.04
+
 Data::UUID		1.217
 
 Data::GUID		0.046
@@ -61,8 +63,6 @@ JSON::XS		2.32
 JSON			2.22
 
 CPAN::DistnameInfo	0.10
-
-Params::Util		1.04
 
 Metabase::Fact		0.020
 

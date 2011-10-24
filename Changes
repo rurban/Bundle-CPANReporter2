@@ -1,5 +1,8 @@
 Revision history for Perl extension Bundle::CPANReporter2
 
+0.07  2011-10-24 rurban
+	- Params::Util required by Data::GUID (missing dep)
+
 0.06  2011-09-02 rurban
 	- added Params::Util
 

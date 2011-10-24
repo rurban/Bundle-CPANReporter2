@@ -5,3 +5,4 @@ README
 Makefile.PL
 META.yml
 SIGNATURE
+META.json                                Module JSON meta-data (added by MakeMaker)
