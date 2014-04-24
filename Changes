@@ -1,5 +1,10 @@
 Revision history for Perl extension Bundle::CPANReporter2
 
+0.08  2014-04-24 rurban
+	- bump lots of versions for CPAN::Reporter to deal with new CPAN reqs
+        - switch from Crypt::SSLeay to LWP::Protocol::https with IO::Socket::SSL and Net::SSLeay
+          to support hostname verification
+
 0.07  2011-10-24 rurban
 	- Params::Util required by Data::GUID (missing dep)
 

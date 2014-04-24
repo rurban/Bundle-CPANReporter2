@@ -1,6 +1,6 @@
 package Bundle::CPANReporter2;
 
-$VERSION = '0.07';
+$VERSION = '0.08';
 
 1;
 
@@ -34,41 +34,57 @@ Only once:
 
 =head1 CONTENTS
 
-Params::Util		1.04
+Params::Util		1.07
 
-Data::UUID		1.217
+Data::UUID		1.219
 
-Data::GUID		0.046
+Data::GUID		0.048
 
-Crypt::SSLeay		0.58
+Net::SSLeay		1.58
 
-Encode::Locale		1.02
+IO::Socket::SSL		1.981
 
-Digest::HMAC_MD5        1.02
+LWP::Protocol::https	6.04
 
-Net::IP                 1.25
+IPC::Cmd 		0.76
 
-Net::DNS		0.66
+Encode::Locale		1.03
 
-Parse::CPAN::Meta	1.4401
+Digest::HMAC_MD5        1.01
 
-Test::Reporter		1.58
+Net::IP                 1.26
 
-Config::Perl::V		0.12
+Net::DNS		0.74
 
-common::sense		3.4
+Test::Simple		1.001003
 
-JSON::XS		2.32
+CPAN			2.05
 
-JSON			2.22
+CPAN::Meta		2.132830
 
-CPAN::DistnameInfo	0.10
+CPAN::Version		5.5003
 
-Metabase::Fact		0.020
+CPAN::Meta::YAML	0.012
 
-Metabase::Client::Simple 0.008
+Parse::CPAN::Meta	1.4414
 
-CPAN::Reporter		1.1800
+Test::Reporter		1.60
+
+Config::Perl::V		0.20
+
+common::sense		3.72
+
+JSON::XS		3.01
+
+JSON			2.90
+
+CPAN::DistnameInfo	0.12
+
+Metabase::Fact		0.024
+
+Metabase::Client::Simple 0.009
+
+CPAN::Reporter		1.2010
 
 CPAN::Testers::Report   1.999001
 
