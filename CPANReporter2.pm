@@ -1,6 +1,6 @@
 package Bundle::CPANReporter2;
 
-$VERSION = '0.08';
+$VERSION = '0.09';
 
 1;
 
@@ -84,7 +84,7 @@ Metabase::Fact		0.024
 
 Metabase::Client::Simple 0.009
 
-CPAN::Reporter		1.2010
+CPAN::Reporter		1.2011
 
 CPAN::Testers::Report   1.999001
 
