@@ -1,6 +1,6 @@
 Revision history for Perl extension Bundle::CPANReporter2
 
-0.10  2014-08-25 rurban
+0.10+0.11  2014-08-25 rurban
       - HTML::Parser 3.71 gone missing by LWP::Protocol::https
       - bump all versions to latest
       - publish to github

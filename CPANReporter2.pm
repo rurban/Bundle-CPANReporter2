@@ -1,6 +1,6 @@
 package Bundle::CPANReporter2;
 
-$VERSION = '0.09';
+$VERSION = '0.11';
 
 1;
 
