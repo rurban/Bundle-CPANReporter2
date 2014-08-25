@@ -36,6 +36,8 @@ Only once:
 
 Params::Util		1.07
 
+HTML::Parser            3.71
+
 Data::UUID		1.219
 
 Data::GUID		0.048
@@ -96,7 +98,12 @@ Test::Reporter::Transport::Metabase 1.999008
 I have a hierarchy of @INC so I mostly have to install only into some
 lower versioned perl. Just XS modules need a manual update then. For
 this complicated dependency chain I used this bundle, esp. for
-Data::UUID.
+Data::UUID, but over time more and more dependencies gone missing.
+Latest additions to the club: Params::Util HTML::Parser
+
+=head1 DEVELOPMENT
+
+L<https://github.com/rurban/Bundle-CPANReporter2>
 
 =head1 AUTHOR
 
