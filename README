@@ -2,7 +2,7 @@ Bundle::CPANReporter2
 =====================
 
 This is a convenience bundle for CPAN::Reporter::Transport::Metabase
-esp. to install XS modules.
+esp. to install XS modules and its missing dependencies.
 
 INSTALLATION
 
@@ -10,7 +10,7 @@ For all Perl versions (esp. compiles XS modules)
 
 	$ cpan Bundle::CPANReporter2
 
-CPAN::Reporter 2.0 switchexd from SMTP to Metabase via HTTP.
+CPAN::Reporter 2.0 switched from SMTP to Metabase via HTTP.
 To enable it, create a unique profile, or associate it with your CPAN id:
 
 	$ metabase-profile

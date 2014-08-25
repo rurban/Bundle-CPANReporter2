@@ -1,9 +1,15 @@
 Revision history for Perl extension Bundle::CPANReporter2
 
+0.10  2014-08-25 rurban
+      - HTML::Parser 3.71 gone missing by LWP::Protocol::https
+      - bump all versions to latest
+      - publish to github
+      - auto-generate SIGNATURE
+
 0.09  2014-04-24 rurban
       - CPAN::Reporter	1.2011
 
-0.08  2014-04-24 rurban
+0.08  2014-04-24 rurban (not uploaded)
 	- bump lots of versions for CPAN::Reporter to deal with new CPAN reqs
         - switch from Crypt::SSLeay to LWP::Protocol::https with IO::Socket::SSL and Net::SSLeay
           to support hostname verification
